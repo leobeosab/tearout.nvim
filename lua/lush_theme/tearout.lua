@@ -65,6 +65,8 @@ local theme = lush(function(injected_functions)
     Whitespace     { fg=dark_walnut }, -- "nbsp", "space", "tab" and "trail" in 'listchars'
     WinBar         { bg=extra_dark_bg, fg=olive}, -- Window bar of current window
     WinBarNC         { bg=dark_bg, fg=paduak}, -- Window bar of current window
+    WinSeparator {},
+    VerticalSplit {},
 
     WhichKey {bg=dark_bg},
     WhichKeySeparator {bg=dark_bg,fg=golden_oak},
@@ -146,7 +148,7 @@ local theme = lush(function(injected_functions)
     -- TabLine        { }, -- Tab pages line, not active tab page label
     -- TabLineFill    { }, -- Tab pages line, where there are no labels
     -- TabLineSel     { }, -- Tab pages line, active tab page label
-    -- Title          { }, -- Titles for output from ":set all", ":autocmd" etc.
+    Title          { gui="bold"}, -- Titles for output from ":set all", ":autocmd" etc.
     -- VisualNOS      { }, -- Visual mode selection when vim is "Not Owning the Selection".
     -- WarningMsg     { }, -- Warning messages
     -- Winseparator   { }, -- Separator between window splits. Inherts from |hl-VertSplit| by default, which it will replace eventually.
