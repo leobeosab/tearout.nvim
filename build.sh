@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# Credit to @xero on Github, they built the important bits of this script on the miasma theme
 # setup shipwright for vim
 cat << x0 > ./shipwright_build.lua
 local colorscheme = require("lush_theme.tearout")
