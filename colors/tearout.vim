@@ -75,10 +75,11 @@ hi TelescopePromptBorder guifg=#B5955E guibg=#2C3126 guisp=NONE blend=NONE gui=N
 hi TelescopeSelectionCaret guifg=#B5955E guibg=#24281F guisp=NONE blend=NONE gui=NONE
 hi TelescopeTitle guifg=#B5955E guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi @text.todo guifg=#6C9861 guibg=NONE guisp=NONE blend=NONE gui=NONE
+hi Title guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=bold
 hi Todo guifg=#6C9861 guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi Type guifg=#97976D guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi @variable guifg=#F4D2AE guibg=NONE guisp=NONE blend=NONE gui=NONE
-hi VertSplit guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
+hi VertSplit guifg=#F4D2AE guibg=#24281F guisp=NONE blend=NONE gui=NONE
 hi Visual guifg=#34392D guibg=#C9A654 guisp=NONE blend=NONE gui=NONE
 hi WhichKeyBorder guifg=NONE guibg=#2C3126 guisp=NONE blend=NONE gui=NONE
 hi WhichKeyDesc guifg=#CC967B guibg=#2C3126 guisp=NONE blend=NONE gui=NONE
@@ -89,3 +90,4 @@ hi WhichKeySeparator guifg=#C9A654 guibg=#2C3126 guisp=NONE blend=NONE gui=NONE
 hi Whitespace guifg=#675642 guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi WinBar guifg=#97976D guibg=#24281F guisp=NONE blend=NONE gui=NONE
 hi WinBarNC guifg=#FF9452 guibg=#2C3126 guisp=NONE blend=NONE gui=NONE
+hi WinSeparator guifg=#2C3126 guibg=#24281F guisp=NONE blend=NONE gui=NONE

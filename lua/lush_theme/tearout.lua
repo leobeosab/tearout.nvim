@@ -51,7 +51,7 @@ local theme = lush(function(injected_functions)
     Directory      { fg=golden_oak}, -- Directory names (and other special names in listings)
     DiffAdd        { bg=lush_green, fg=extra_dark_bg}, -- Diff mode: Added line |diff.txt|
     ErrorMsg       { fg=paduak }, -- Error messages on the command line
-    VertSplit      {}, -- Column separating vertically split windows
+    VertSplit      {bg=extra_dark_bg, fg=maple}, -- Column separating vertically split windows
     Folded         { bg=dark_bg, fg=dark_fg}, -- Line used for closed folds
     LineNr         { fg=olive, bg=dark_bg}, -- Line number for ":number" and ":#" commands, and when 'number' or 'relativenumber' option is set.
     MatchParen     {bg=extra_dark_bg, fg=golden_oak}, -- Character under the cursor or just before it, if it is a paired bracket, and its match. |pi_paren.txt|
@@ -65,8 +65,7 @@ local theme = lush(function(injected_functions)
     Whitespace     { fg=dark_walnut }, -- "nbsp", "space", "tab" and "trail" in 'listchars'
     WinBar         { bg=extra_dark_bg, fg=olive}, -- Window bar of current window
     WinBarNC         { bg=dark_bg, fg=paduak}, -- Window bar of current window
-    WinSeparator {},
-    VerticalSplit {},
+    WinSeparator {bg=extra_dark_bg, fg=dark_bg},
 
     WhichKey {bg=dark_bg},
     WhichKeySeparator {bg=dark_bg,fg=golden_oak},
@@ -83,7 +82,6 @@ local theme = lush(function(injected_functions)
     MarkviewPalette4 {bg=white_oak, fg=dark_walnut},
     MarkviewPalette5 {bg=white_oak, fg=dark_walnut},
     MarkviewPalette6 {bg=white_oak, fg=dark_walnut},
-
 
     Constant       { fg=olive}, -- (*) Any constant
     String         { fg=lush_green}, --   A string constant: "this is a string"
